@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+</head>
+<body>
+    <script>
+        var idade = parseInt(prompt("Digite sua idade:"));
+        var pais = prompt("Digite o país (Brasil ou EUA):");
+
+        if (pais === "Brasil" && idade >= 18) {
+            alert("Você é maior de idade no Brasil.");
+        } else if (pais === "EUA" && idade >= 21) {
+            alert("Você é maior de idade nos EUA.");
+        } else {
+            alert("Você não é maior de idade no país selecionado.");
+        }
+    </script>
+</body>
+</html>
